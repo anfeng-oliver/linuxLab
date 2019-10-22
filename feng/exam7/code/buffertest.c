@@ -10,7 +10,7 @@ int main(int argc,char *argv[])
 		return 1;
 	}	
 	printf("No buffer stdin setting succeed!\n");
-	printf("kind of the stdin :\n");
+	printf("kind of the stdin :");
 	if(stdin->_flags & _IO_UNBUFFERED)
 	{
 		printf("No buffer!\n");
@@ -31,7 +31,7 @@ int main(int argc,char *argv[])
 		return 2;
 	}
 	printf("Modify stdin kind succeed!\n");
-	printf("Kind of the stdin is :\n");
+	printf("Kind of the stdin is :");
 	if(stdin->_flags &_IO_UNBUFFERED)
 	{
 		printf("No buffer!\n");
