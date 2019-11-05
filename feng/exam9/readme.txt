@@ -10,4 +10,6 @@ ret = execl("path");
 fater.pid = son.pid.
 
 memtest
-valgrind --track-fds=yes --leak-check=full--undef-value-errors=yes ./memtest
+valgrind --track-fds=yes --leak-check=full gcc--undef-value-errors=yes ./memtest
+
+gcc longjmp2.c -o longjmp3 -Wall -O2
